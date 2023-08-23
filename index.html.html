@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <h2>Singapore Tourism</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="Name">Name</label>
+          </td>
+          <td>
+            <input type="text" id="Name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="PhoneNo">Phone no.</label>
+          </td>
+          <td>
+            <input type="tel" id="PhoneNo" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email ID</label>
+          </td>
+          <td>
+            <input type="text" id="Email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="NoOfPersons">No of Persons</label>
+          </td>
+          <td>
+            <input type="text" id="NoOfPersons" onchange="userInput()" />
+          </td>
+        </tr>
+        <tr>
+          <td>Prefer Stay</td>
+          <td>
+            <input type="radio" id="Yes" name="PreferStay" />
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="PreferStay" />
+            <label for="No">No</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="NoofDaysStay">No of Days Stay</label>
+          </td>
+          <td>
+            <input type="text" id="NoofDaysStay" />
+          </td>
+        </tr>
+        <tr>
+          <td>Places you would like to visit</td>
+          <td>
+            <input type="checkbox" id="Place1" name="VisitPlaces" />
+            <label for="Place1">Places Of Piligrim</label> <br />
+            <input type="checkbox" id="Place2" name="VisitPlaces" />
+            <label for="Place2">Places Of Heritage</label> <br />
+            <input type="checkbox" id="Place3" name="VisitPlaces" />
+            <label for="Place3">Hills</label> <br />
+            <input type="checkbox" id="Place4" name="VisitPlaces" />
+            <label for="Place4">Falls</label> <br />
+            <input type="checkbox" id="Place5" name="VisitPlaces" />
+            <label for="Place5">Beach</label> <br />
+            <input type="checkbox" id="Place6" name="VisitPlaces" />
+            <label for="Place6">Places Of Adventure</label> <br />
+          </td>
+        </tr>
+      </table>
+      <button>Calculate Cost</button>
+    </form>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
